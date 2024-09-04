@@ -15,7 +15,7 @@ echo "Loading environment for p48 deployment ..."
 
 export EC_CLI_BACKEND="ARGOCD"
 # the argocd project and root app
-export EC_TARGET=p46-beamline/p48
+export EC_TARGET=p48-beamline/p48
 # the git repo for this project
 export EC_SERVICES_REPO=https://github.com/epics-containers/p48-services
 # declare your centralised log server Web UI

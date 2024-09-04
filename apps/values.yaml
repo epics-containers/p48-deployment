@@ -8,7 +8,7 @@
 # services should be running on the cluster. It is recommended that this repo
 # be updated by a CI/CD pipeline or configuration tools only.
 
-project: p46-beamline
+project: p48-beamline
 destination:
   name: pollux
   namespace: p48-beamline

@@ -5,7 +5,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: p46-beamline
+  project: p48-beamline
   destination:
     name: argus
     namespace: p48-beamline
