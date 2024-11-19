@@ -28,8 +28,11 @@ services:
 
   # daq services ###############################################################
   daq-rabbitmq:
+    targetRevision: main
   daq-blueapi:
+    targetRevision: main
   daq-nexus:
+    targetRevision: main
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
