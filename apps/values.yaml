@@ -32,7 +32,6 @@ services:
   p48-blueapi:
   p48-nexus:
   p48-tiled:
-    targetRevision: add-tiled
 
 
 ec_services:
