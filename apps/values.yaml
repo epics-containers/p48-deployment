@@ -45,7 +45,7 @@ ec_services:
   #     enabled: set to false to stop a service
   bl48p-ea-panda-01:
     targetRevision: 2024.9.4
-    enabled: true
+    enabled: false
   bl48p-ea-dcam-01:
     targetRevision: 2024.9.4
     enabled: true
