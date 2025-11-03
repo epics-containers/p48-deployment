@@ -10,7 +10,7 @@
 
 project: p48-beamline
 destination:
-  name: pollux
+  name: p48
   namespace: p48-beamline
 source:
   repoURL: https://github.com/epics-containers/p48-services
@@ -23,8 +23,9 @@ services:
   #     repoURL: optional override for git repo to source the helm chart from
   #            the path is always services/<service> within that repo
   #     removed: set to true to remove the service from the cluster
-  epics-pvcs:
-  epics-opis:
+  #     enabled: set to false to stop a service
+  p48-epics-pvcs:
+  p48-epics-opis:
   p48-proxy:
 
   # daq services ###############################################################
@@ -33,25 +34,12 @@ services:
   p48-nexus:
   p48-tiled:
 
-
-ec_services:
-  # Services which have implemented support for an "enabled" parameter.
-  # Each item is of the form:
-  #   service: service name as it appears in K8S (statefulset/deployment name)
-  #     targetRevision: optional override for targetRevision above
-  #     repoURL: optional override for git repo to source the helm chart from
-  #            the path is always services/<service> within that repo
-  #     removed: set to true to remove the service from the cluster
-  #     enabled: set to false to stop a service
+  # IOCs
   bl48p-ea-panda-01:
-    targetRevision: 2024.9.4
     enabled: false
   bl48p-ea-dcam-01:
-    targetRevision: 2024.9.4
     enabled: true
   bl48p-ea-dcam-02:
-    targetRevision: 2024.9.4
     enabled: true
   bl48p-mo-ioc-01:
-    targetRevision: 2024.9.4
     enabled: true
