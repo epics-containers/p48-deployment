@@ -26,6 +26,7 @@ services:
   #     enabled: set to false to stop a service
   p48-epics-pvcs:
   p48-epics-opis:
+  p48-epics-gateways:
   p48-proxy:
 
   # daq services ###############################################################
