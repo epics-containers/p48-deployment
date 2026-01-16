@@ -33,6 +33,7 @@ services:
   p48-rabbitmq:
   p48-blueapi:
   p48-nexus:
+    targetRevision: nexus-changes
   p48-tiled:
 
   # IOCs
