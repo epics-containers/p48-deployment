@@ -38,5 +38,7 @@ services:
   # IOCs
   bl48p-ea-panda-01:
   bl48p-ea-dcam-01:
+    enabled: true
+    targetRevision: main
   bl48p-ea-dcam-02:
   bl48p-mo-ioc-01:
