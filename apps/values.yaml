@@ -40,6 +40,7 @@ services:
     enabled: false
   bl48p-ea-dcam-01:
     enabled: true
+    targetRevision: main
   bl48p-ea-dcam-02:
     enabled: true
   bl48p-mo-ioc-01:
