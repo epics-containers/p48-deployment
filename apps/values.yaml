@@ -32,7 +32,6 @@ services:
   # daq services ###############################################################
   p48-rabbitmq:
   p48-blueapi:
-    targetRevision: blueapi-to-1.11.4
   p48-nexus:
     targetRevision: nexus-changes
   p48-tiled:
