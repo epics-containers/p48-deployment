@@ -34,7 +34,6 @@ services:
   p48-blueapi:
     targetRevision: excludeHealth
   p48-nexus:
-    targetRevision: nexus-changes
   p48-tiled:
 
   # IOCs
