@@ -32,9 +32,11 @@ services:
   # daq services ###############################################################
   p48-rabbitmq:
   p48-blueapi:
+    targetRevision: update-blueapi-tiled
   p48-nexus:
     targetRevision: obs-test
   p48-tiled:
+    targetRevision: update-blueapi-tiled
 
   # IOCs
   bl48p-ea-panda-01:
