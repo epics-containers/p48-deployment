@@ -32,7 +32,6 @@ services:
   # daq services ###############################################################
   p48-rabbitmq:
   p48-blueapi:
-    targetRevision: "local-helm-changes"
   p48-nexus:
     targetRevision: obs-test
   p48-tiled:
