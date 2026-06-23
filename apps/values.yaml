@@ -31,9 +31,7 @@ services:
 
   # daq services ###############################################################
   p48-rabbitmq:
-    targetRevision: test-cpu-limits
   p48-blueapi:
-    targetRevision: test-cpu-limits
   p48-nexus:
     targetRevision: obs-test
   p48-tiled:
