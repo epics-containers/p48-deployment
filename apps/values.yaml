@@ -33,13 +33,10 @@ services:
   p48-rabbitmq:
   p48-blueapi:
   p48-nexus:
-    targetRevision: obs-test
   p48-tiled:
 
   # IOCs
   bl48p-ea-panda-01:
   bl48p-ea-dcam-01:
-    enabled: true
-    targetRevision: main
   bl48p-ea-dcam-02:
   bl48p-mo-ioc-01:
