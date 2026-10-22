@@ -32,7 +32,6 @@ services:
   # daq services ###############################################################
   p48-rabbitmq:
   p48-blueapi:
-    targetRevision: instrument-metrics
   p48-nexus:
   p48-tiled:
 
