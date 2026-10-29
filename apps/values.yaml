@@ -27,7 +27,6 @@ services:
   p48-epics-pvcs:
   p48-epics-opis:
   p48-epics-gateways:
-    targetRevision: add_node_affinity
   p48-proxy:
 
   # daq services ###############################################################
