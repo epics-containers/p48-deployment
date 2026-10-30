@@ -35,6 +35,7 @@ services:
     targetRevision: ela/update_blueapi
   p48-nexus:
   p48-tiled:
+    targetRevision: update-tiled
 
   # IOCs
   bl48p-ea-panda-01:
