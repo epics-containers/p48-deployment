@@ -35,7 +35,7 @@ services:
   p48-nexus:
   p48-tiled:
   p48-sci-ui:
-    targetRevision: dw/ws-investigation
+    targetRevision: ela/deploy_ui
 
   # IOCs
   bl48p-ea-panda-01:
